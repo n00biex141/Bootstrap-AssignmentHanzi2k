@@ -1,0 +1,28 @@
+body::before{
+    display: block;
+    content: '';
+    height: 100px;   
+}
+
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.bi-facebook{
+    color: #3b5998;
+}
+
+.bi-github{
+    color:gray;
+}
+
+.bi-youtube{
+    color: #bb0000;
+}
+
+.bi-facebook:hover,
+.bi-github:hover,
+.bi-youtube:hover{
+    color: #d5d5d5;
+}
